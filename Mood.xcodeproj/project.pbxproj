@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3E1998267E2C9A00E1A4C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E1997267E2C9A00E1A4C5 /* LoginView.swift */; };
+		EC3E199B267E2CC400E1A4C5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E199A267E2CC400E1A4C5 /* LoginViewModel.swift */; };
+		EC3E199E267E2CF400E1A4C5 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E199D267E2CF400E1A4C5 /* AppManager.swift */; };
+		EC3E19A1267E2DE300E1A4C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E19A0267E2DE300E1A4C5 /* HomeView.swift */; };
+		EC3E19A4267E2E2500E1A4C5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E19A3267E2E2500E1A4C5 /* HomeViewModel.swift */; };
+		EC59A1B7267CDA350079C5AD /* MoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC59A1B6267CDA350079C5AD /* MoodApp.swift */; };
+		EC59A1B9267CDA350079C5AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC59A1B8267CDA350079C5AD /* ContentView.swift */; };
+		EC59A1BB267CDA390079C5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC59A1BA267CDA390079C5AD /* Assets.xcassets */; };
+		EC59A1BE267CDA390079C5AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC59A1BD267CDA390079C5AD /* Preview Assets.xcassets */; };
+		EC59A1C7267CDBE30079C5AD /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC59A1C6267CDBE30079C5AD /* URLImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC3E1997267E2C9A00E1A4C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EC3E199A267E2CC400E1A4C5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EC3E199D267E2CF400E1A4C5 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		EC3E19A0267E2DE300E1A4C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EC3E19A3267E2E2500E1A4C5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EC59A1B3267CDA350079C5AD /* Mood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC59A1B6267CDA350079C5AD /* MoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodApp.swift; sourceTree = "<group>"; };
+		EC59A1B8267CDA350079C5AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC59A1BA267CDA390079C5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC59A1BD267CDA390079C5AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC59A1BF267CDA390079C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC59A1C6267CDBE30079C5AD /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC59A1B0267CDA350079C5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC59A1AA267CDA350079C5AD = {
+			isa = PBXGroup;
+			children = (
+				EC59A1B5267CDA350079C5AD /* Mood */,
+				EC59A1B4267CDA350079C5AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC59A1B4267CDA350079C5AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC59A1B3267CDA350079C5AD /* Mood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC59A1B5267CDA350079C5AD /* Mood */ = {
+			isa = PBXGroup;
+			children = (
+				EC59A1C6267CDBE30079C5AD /* URLImage.swift */,
+				EC59A1B6267CDA350079C5AD /* MoodApp.swift */,
+				EC59A1B8267CDA350079C5AD /* ContentView.swift */,
+				EC59A1BA267CDA390079C5AD /* Assets.xcassets */,
+				EC59A1BF267CDA390079C5AD /* Info.plist */,
+				EC59A1BC267CDA390079C5AD /* Preview Content */,
+				EC3E1997267E2C9A00E1A4C5 /* LoginView.swift */,
+				EC3E199A267E2CC400E1A4C5 /* LoginViewModel.swift */,
+				EC3E199D267E2CF400E1A4C5 /* AppManager.swift */,
+				EC3E19A0267E2DE300E1A4C5 /* HomeView.swift */,
+				EC3E19A3267E2E2500E1A4C5 /* HomeViewModel.swift */,
+			);
+			path = Mood;
+			sourceTree = "<group>";
+		};
+		EC59A1BC267CDA390079C5AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC59A1BD267CDA390079C5AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC59A1B2267CDA350079C5AD /* Mood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC59A1C2267CDA390079C5AD /* Build configuration list for PBXNativeTarget "Mood" */;
+			buildPhases = (
+				EC59A1AF267CDA350079C5AD /* Sources */,
+				EC59A1B0267CDA350079C5AD /* Frameworks */,
+				EC59A1B1267CDA350079C5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mood;
+			packageProductDependencies = (
+			);
+			productName = Mood;
+			productReference = EC59A1B3267CDA350079C5AD /* Mood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC59A1AB267CDA350079C5AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EC59A1B2267CDA350079C5AD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EC59A1AE267CDA350079C5AD /* Build configuration list for PBXProject "Mood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC59A1AA267CDA350079C5AD;
+			packageReferences = (
+			);
+			productRefGroup = EC59A1B4267CDA350079C5AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC59A1B2267CDA350079C5AD /* Mood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC59A1B1267CDA350079C5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59A1BE267CDA390079C5AD /* Preview Assets.xcassets in Resources */,
+				EC59A1BB267CDA390079C5AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC59A1AF267CDA350079C5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59A1B9267CDA350079C5AD /* ContentView.swift in Sources */,
+				EC3E19A1267E2DE300E1A4C5 /* HomeView.swift in Sources */,
+				EC59A1C7267CDBE30079C5AD /* URLImage.swift in Sources */,
+				EC3E19A4267E2E2500E1A4C5 /* HomeViewModel.swift in Sources */,
+				EC3E1998267E2C9A00E1A4C5 /* LoginView.swift in Sources */,
+				EC3E199E267E2CF400E1A4C5 /* AppManager.swift in Sources */,
+				EC3E199B267E2CC400E1A4C5 /* LoginViewModel.swift in Sources */,
+				EC59A1B7267CDA350079C5AD /* MoodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC59A1C0267CDA390079C5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC59A1C1267CDA390079C5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC59A1C3267CDA390079C5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mood/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hascats.Mood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC59A1C4267CDA390079C5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mood/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hascats.Mood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC59A1AE267CDA350079C5AD /* Build configuration list for PBXProject "Mood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59A1C0267CDA390079C5AD /* Debug */,
+				EC59A1C1267CDA390079C5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC59A1C2267CDA390079C5AD /* Build configuration list for PBXNativeTarget "Mood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59A1C3267CDA390079C5AD /* Debug */,
+				EC59A1C4267CDA390079C5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC59A1AB267CDA350079C5AD /* Project object */;
+}
