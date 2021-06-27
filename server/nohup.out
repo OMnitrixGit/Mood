@@ -1,0 +1,135 @@
+INFO:     Started server process [25772]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://*:5001 (Press CTRL+C to quit)
+INFO:     112.6.124.184:3990 - "GET / HTTP/1.1" 200 OK
+INFO:     112.6.124.184:3990 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     112.6.124.172:37279 - "GET / HTTP/1.1" 200 OK
+INFO:     112.6.124.172:37279 - "GET / HTTP/1.1" 200 OK
+INFO:     112.6.124.172:37279 - "GET / HTTP/1.1" 200 OK
+INFO:     112.6.124.172:40223 - "GET / HTTP/1.1" 200 OK
+INFO:     112.6.124.184:8722 - "GET / HTTP/1.1" 200 OK
+INFO:     112.6.124.172:28701 - "GET / HTTP/1.1" 200 OK
+INFO:     112.6.124.184:46608 - "GET / HTTP/1.1" 200 OK
+INFO:     112.6.124.184:22269 - "GET / HTTP/1.1" 200 OK
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on https://172.24.10.77:443/ (Press CTRL+C to quit)
+112.6.124.184 - - [22/Jun/2021 14:32:33] "GET / HTTP/1.1" 200 -
+112.6.124.172 - - [22/Jun/2021 14:32:45] "GET / HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on https://172.24.10.77:443/ (Press CTRL+C to quit)
+112.6.124.184 - - [22/Jun/2021 14:53:37] "GET / HTTP/1.1" 200 -
+112.6.124.172 - - [22/Jun/2021 14:53:52] "GET / HTTP/1.1" 200 -
+112.6.124.184 - - [22/Jun/2021 14:53:52] "GET / HTTP/1.1" 200 -
+112.6.124.184 - - [22/Jun/2021 14:53:53] "GET / HTTP/1.1" 200 -
+112.6.124.184 - - [22/Jun/2021 14:54:23] "GET / HTTP/1.1" 200 -
+112.6.124.184 - - [22/Jun/2021 14:55:46] "GET / HTTP/1.1" 200 -
+106.14.133.105 - - [22/Jun/2021 15:37:45] "GET / HTTP/1.1" 200 -
+101.251.238.50 - - [22/Jun/2021 16:16:24] "GET / HTTP/1.1" 200 -
+192.241.214.102 - - [22/Jun/2021 17:03:43] "[33mGET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1[0m" 404 -
+193.118.53.202 - - [22/Jun/2021 18:53:44] "GET / HTTP/1.1" 200 -
+34.96.130.22 - - [22/Jun/2021 19:20:06] "GET / HTTP/1.1" 200 -
+185.173.35.5 - - [22/Jun/2021 20:49:59] "GET / HTTP/1.1" 200 -
+93.104.209.222 - - [22/Jun/2021 23:09:47] "GET / HTTP/1.1" 200 -
+47.102.104.161 - - [23/Jun/2021 00:37:13] "GET / HTTP/1.1" 200 -
+128.1.248.26 - - [23/Jun/2021 01:02:02] "GET / HTTP/1.1" 200 -
+209.17.97.42 - - [23/Jun/2021 03:57:50] "GET / HTTP/1.1" 200 -
+193.107.216.198 - - [23/Jun/2021 05:13:08] "[33mGET //a2billing/customer/templates/default/footer.tpl HTTP/1.1[0m" 404 -
+192.241.220.134 - - [23/Jun/2021 05:16:57] "[33mGET /ReportServer HTTP/1.1[0m" 404 -
+47.101.61.104 - - [23/Jun/2021 05:40:49] "GET / HTTP/1.1" 200 -
+101.133.140.55 - - [23/Jun/2021 05:50:43] "GET / HTTP/1.1" 200 -
+192.241.214.79 - - [23/Jun/2021 05:53:40] "[33mGET /login HTTP/1.1[0m" 404 -
+192.241.218.5 - - [23/Jun/2021 06:30:09] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1[0m" 404 -
+106.15.185.72 - - [23/Jun/2021 07:39:13] "GET / HTTP/1.1" 200 -
+80.82.77.192 - - [23/Jun/2021 07:52:12] "GET / HTTP/1.1" 200 -
+74.207.228.142 - - [23/Jun/2021 08:43:08] "[33mGET /owa/ HTTP/1.1[0m" 404 -
+192.241.216.35 - - [23/Jun/2021 09:09:12] "GET / HTTP/1.1" 200 -
+185.147.34.56 - - [23/Jun/2021 10:26:06] "[33mGET /.env HTTP/1.1[0m" 404 -
+185.147.34.56 - - [23/Jun/2021 10:26:07] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+162.142.125.53 - - [23/Jun/2021 12:30:49] "GET / HTTP/1.1" 200 -
+162.142.125.53 - - [23/Jun/2021 12:30:51] "GET / HTTP/1.1" 200 -
+89.248.168.138 - - [23/Jun/2021 12:44:49] "GET / HTTP/1.1" 200 -
+106.15.52.246 - - [23/Jun/2021 12:47:28] "GET / HTTP/1.0" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on https://172.24.10.77:443/ (Press CTRL+C to quit)
+112.6.124.184 - - [25/Jun/2021 20:38:26] "GET / HTTP/1.1" 200 -
+112.6.124.172 - - [25/Jun/2021 20:38:27] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+112.6.124.172 - - [25/Jun/2021 20:38:27] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+112.6.124.172 - - [25/Jun/2021 20:39:01] "GET / HTTP/1.1" 200 -
+112.6.124.172 - - [25/Jun/2021 20:39:02] "GET / HTTP/1.1" 200 -
+112.6.124.172 - - [25/Jun/2021 20:39:08] "GET / HTTP/1.1" 200 -
+193.118.53.210 - - [25/Jun/2021 23:02:34] "GET / HTTP/1.1" 200 -
+162.142.125.39 - - [26/Jun/2021 00:01:50] "GET / HTTP/1.1" 200 -
+162.142.125.39 - - [26/Jun/2021 00:01:51] "GET / HTTP/1.1" 200 -
+139.162.231.247 - - [26/Jun/2021 01:09:39] "[33mGET /owa/ HTTP/1.1[0m" 404 -
+192.241.222.112 - - [26/Jun/2021 03:12:39] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+128.14.134.170 - - [26/Jun/2021 03:19:09] "GET / HTTP/1.1" 200 -
+104.140.188.42 - - [26/Jun/2021 03:22:02] "GET / HTTP/1.1" 200 -
+139.162.231.247 - - [26/Jun/2021 05:00:39] "[33mGET /owa/ HTTP/1.1[0m" 404 -
+128.1.248.26 - - [26/Jun/2021 05:35:32] "GET / HTTP/1.1" 200 -
+47.101.142.41 - - [26/Jun/2021 05:39:28] "GET / HTTP/1.1" 200 -
+47.101.159.221 - - [26/Jun/2021 05:51:22] "GET / HTTP/1.1" 200 -
+185.147.34.56 - - [26/Jun/2021 06:20:22] "[33mGET /.env HTTP/1.1[0m" 404 -
+185.147.34.56 - - [26/Jun/2021 06:20:23] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+209.17.96.74 - - [26/Jun/2021 06:27:17] "GET / HTTP/1.1" 200 -
+180.149.125.175 - - [26/Jun/2021 09:26:21] "GET / HTTP/1.1" 200 -
+65.49.20.68 - - [26/Jun/2021 12:42:29] "GET / HTTP/1.1" 200 -
+83.41.123.192 - - [26/Jun/2021 13:25:05] "GET / HTTP/1.1" 200 -
+106.14.104.214 - - [26/Jun/2021 13:50:32] "GET / HTTP/1.0" 200 -
+23.251.102.74 - - [26/Jun/2021 14:40:19] "GET / HTTP/1.1" 200 -
+193.107.216.219 - - [26/Jun/2021 15:09:11] "GET / HTTP/1.1" 200 -
+192.241.220.176 - - [26/Jun/2021 15:20:44] "GET / HTTP/1.1" 200 -
+47.101.63.151 - - [26/Jun/2021 16:42:23] "GET / HTTP/1.1" 200 -
+192.241.221.70 - - [26/Jun/2021 17:15:24] "[33mGET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1[0m" 404 -
+193.118.53.210 - - [26/Jun/2021 17:21:02] "GET / HTTP/1.1" 200 -
+39.103.139.204 - - [26/Jun/2021 18:05:56] "GET / HTTP/1.0" 200 -
+39.103.139.204 - - [26/Jun/2021 18:05:56] "GET / HTTP/1.1" 200 -
+74.120.14.56 - - [26/Jun/2021 18:21:58] "GET / HTTP/1.1" 200 -
+74.120.14.56 - - [26/Jun/2021 18:21:58] "GET / HTTP/1.1" 200 -
+106.15.88.163 - - [26/Jun/2021 18:44:55] "GET / HTTP/1.1" 200 -
+193.107.216.236 - - [26/Jun/2021 19:30:37] "[33mGET //a2billing/customer/templates/default/footer.tpl HTTP/1.1[0m" 404 -
+167.99.133.28 - - [26/Jun/2021 19:52:26] "GET / HTTP/1.1" 200 -
+167.99.133.28 - - [26/Jun/2021 19:52:36] "GET / HTTP/1.1" 200 -
+167.99.133.28 - - [26/Jun/2021 19:53:07] "[33mGET /telescope/requests HTTP/1.1[0m" 404 -
+35.195.57.216 - - [26/Jun/2021 20:11:31] "GET / HTTP/1.1" 200 -
+80.82.77.192 - - [26/Jun/2021 20:48:15] "GET / HTTP/1.1" 200 -
+13.125.221.216 - - [26/Jun/2021 21:45:00] "GET / HTTP/1.1" 200 -
+128.14.209.162 - - [26/Jun/2021 21:49:26] "GET / HTTP/1.1" 200 -
+193.107.216.236 - - [26/Jun/2021 23:58:05] "[33mGET //a2billing/customer/templates/default/footer.tpl HTTP/1.1[0m" 404 -
+74.207.228.142 - - [27/Jun/2021 02:19:23] "[33mGET /owa/ HTTP/1.1[0m" 404 -
+101.251.238.50 - - [27/Jun/2021 02:58:07] "GET / HTTP/1.1" 200 -
+192.241.215.76 - - [27/Jun/2021 03:13:03] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+128.14.134.134 - - [27/Jun/2021 04:45:32] "GET / HTTP/1.1" 200 -
+165.227.136.172 - - [27/Jun/2021 05:03:17] "GET / HTTP/1.1" 200 -
+193.118.53.130 - - [27/Jun/2021 05:22:58] "GET / HTTP/1.1" 200 -
+47.102.132.99 - - [27/Jun/2021 06:29:17] "GET / HTTP/1.1" 200 -
+192.241.215.27 - - [27/Jun/2021 06:33:38] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1[0m" 404 -
+209.17.96.106 - - [27/Jun/2021 08:30:02] "GET / HTTP/1.1" 200 -
+183.136.225.14 - - [27/Jun/2021 09:44:24] "GET / HTTP/1.1" 200 -
+183.136.225.14 - - [27/Jun/2021 09:44:25] "GET / HTTP/1.1" 200 -
+183.136.225.14 - - [27/Jun/2021 09:44:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+91.132.58.66 - - [27/Jun/2021 12:29:42] "GET / HTTP/1.1" 200 -
+64.62.197.92 - - [27/Jun/2021 12:48:06] "GET / HTTP/1.1" 200 -
+185.40.4.126 - - [27/Jun/2021 14:44:15] "GET / HTTP/1.1" 200 -
+106.15.52.246 - - [27/Jun/2021 15:03:40] "GET / HTTP/1.0" 200 -
+128.14.134.170 - - [27/Jun/2021 16:36:00] "GET / HTTP/1.1" 200 -
+192.241.222.72 - - [27/Jun/2021 16:57:03] "GET / HTTP/1.1" 200 -
+134.122.112.12 - - [27/Jun/2021 17:42:40] "GET / HTTP/1.1" 200 -
